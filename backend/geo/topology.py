@@ -56,7 +56,7 @@ class TopologyValidator:
                     message=f"Feature {f_id} has invalid geometry: {reason}",
                     toleranceUsed=0.0,
                     resolved=False,
-                    createdAt=datetime.utcnow().isoformat() + "Z"
+                    createdAt=datetime.now(timezone.utc).isoformat()
                 ))
                 continue  # Skip further checks on invalid geometries until repaired
 
@@ -74,7 +74,7 @@ class TopologyValidator:
                         message=f"Parcel {f_id} has area {area_m2:.2f} m², which is below the prototype sliver threshold of {self.sliver_threshold_m2} m².",
                         toleranceUsed=self.sliver_threshold_m2,
                         resolved=False,
-                        createdAt=datetime.utcnow().isoformat() + "Z"
+                        createdAt=datetime.now(timezone.utc).isoformat()
                     ))
 
         # 2. Pairwise checks (overlaps and duplicates among parcels)
@@ -119,7 +119,7 @@ class TopologyValidator:
                         message=f"Duplicate geometry detected between parcel {id_a} and parcel {id_b}.",
                         toleranceUsed=0.01,
                         resolved=False,
-                        createdAt=datetime.utcnow().isoformat() + "Z"
+                        createdAt=datetime.now(timezone.utc).isoformat()
                     ))
                     continue
 
@@ -141,7 +141,7 @@ class TopologyValidator:
                                 message=f"Overlapping parcel boundaries detected between {id_a} and {id_b}. Overlap area: {inter_area:.2f} m² (tolerance: {self.overlap_tolerance_m2} m²).",
                                 toleranceUsed=self.overlap_tolerance_m2,
                                 resolved=False,
-                                createdAt=datetime.utcnow().isoformat() + "Z"
+                                createdAt=datetime.now(timezone.utc).isoformat()
                             ))
                     except Exception:
                         pass
