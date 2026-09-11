@@ -1,0 +1,28 @@
+{
+  "id": "asset-ortho-001",
+  "name": "sample_ortho.jpg",
+  "assetType": "ori",
+  "mimeType": "image/jpeg",
+  "sourceCrs": "EPSG:32643",
+  "geographicCrs": "EPSG:4326",
+  "bounds": {
+    "west": 77.5910,
+    "south": 12.9685,
+    "east": 77.5982,
+    "north": 12.9747
+  },
+  "coordinates": [
+    [77.5910, 12.9747],
+    [77.5982, 12.9747],
+    [77.5982, 12.9685],
+    [77.5910, 12.9685]
+  ],
+  "width": 1024,
+  "height": 1024,
+  "resolutionGsdMeters": 0.10,
+  "metadata": {
+    "sensor": "High-Res UAV Orthomosaic",
+    "capturedAt": "2026-08-15T09:30:00Z",
+    "project": "Ward 12 Urban Cadastral Pilot"
+  }
+}

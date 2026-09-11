@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "road-301",
+      "featureType": "road",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5925,
+            12.9708
+          ],
+          [
+            77.5965,
+            12.9708
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.91,
+        "status": "detected",
+        "name": "Main Access Corridor 1",
+        "width_m": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-302",
+      "featureType": "road",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5925,
+            12.9717
+          ],
+          [
+            77.5965,
+            12.9717
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.89,
+        "status": "detected",
+        "name": "Residential Access Lane 2",
+        "width_m": 6.0
+      }
+    }
+  ]
+}

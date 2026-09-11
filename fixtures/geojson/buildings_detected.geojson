@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bldg-201",
+      "featureType": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5931,
+              12.9711
+            ],
+            [
+              77.5935,
+              12.9711
+            ],
+            [
+              77.5935,
+              12.9715
+            ],
+            [
+              77.5931,
+              12.9715
+            ],
+            [
+              77.5931,
+              12.9711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.93,
+        "confidenceType": "heuristic",
+        "status": "detected",
+        "edited": false,
+        "verified": false,
+        "area_m2": 196.0,
+        "metricCrs": "EPSG:32643"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-202",
+      "featureType": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5937,
+              12.9711
+            ],
+            [
+              77.5941,
+              12.9711
+            ],
+            [
+              77.5941,
+              12.9715
+            ],
+            [
+              77.5937,
+              12.9715
+            ],
+            [
+              77.5937,
+              12.9711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.91,
+        "confidenceType": "heuristic",
+        "status": "detected",
+        "edited": false,
+        "verified": false,
+        "area_m2": 196.0,
+        "metricCrs": "EPSG:32643"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-203",
+      "featureType": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5943,
+              12.9711
+            ],
+            [
+              77.5948,
+              12.9711
+            ],
+            [
+              77.5948,
+              12.9715
+            ],
+            [
+              77.5943,
+              12.9715
+            ],
+            [
+              77.5943,
+              12.9711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.95,
+        "confidenceType": "heuristic",
+        "status": "detected",
+        "edited": false,
+        "verified": false,
+        "area_m2": 245.0,
+        "metricCrs": "EPSG:32643"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-204",
+      "featureType": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.595,
+              12.9711
+            ],
+            [
+              77.5954,
+              12.9711
+            ],
+            [
+              77.5954,
+              12.9715
+            ],
+            [
+              77.595,
+              12.9715
+            ],
+            [
+              77.595,
+              12.9711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.89,
+        "confidenceType": "heuristic",
+        "status": "detected",
+        "edited": false,
+        "verified": false,
+        "area_m2": 196.0,
+        "metricCrs": "EPSG:32643"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-205",
+      "featureType": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5956,
+              12.9711
+            ],
+            [
+              77.596,
+              12.9711
+            ],
+            [
+              77.596,
+              12.9715
+            ],
+            [
+              77.5956,
+              12.9715
+            ],
+            [
+              77.5956,
+              12.9711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source": "ai",
+        "sourceAssetId": "asset-ortho-001",
+        "processingMode": "cv_baseline",
+        "confidence": 0.9,
+        "confidenceType": "heuristic",
+        "status": "detected",
+        "edited": false,
+        "verified": false,
+        "area_m2": 196.0,
+        "metricCrs": "EPSG:32643"
+      }
+    }
+  ]
+}
