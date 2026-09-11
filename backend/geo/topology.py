@@ -12,7 +12,7 @@ Refinement requirements:
 """
 from typing import List, Dict, Any, Tuple
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from shapely.geometry import shape, Polygon, MultiPolygon
 from shapely.validation import explain_validity
 from backend.models.domain import TopologyIssue, IssueSeverity, IssueType

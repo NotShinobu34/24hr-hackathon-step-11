@@ -84,13 +84,13 @@ class TestTopologyValidator(unittest.TestCase):
         self.assertEqual(len(overlap_issues), 0, "Legitimate shared borders should NOT be flagged as overlaps.")
 
     def test_sliver_detection(self):
-        # Tiny micro-polygon (< 2.0 m²)
+        # Tiny micro-polygon (< 2.0 m², approx 0.5m x 0.5m = 0.25 m²)
         features = [{
             "id": "sliver_01",
             "featureType": "parcel",
             "geometry": {
                 "type": "Polygon",
-                "coordinates": [[[77.59368, 12.97178], [77.59370, 12.97178], [77.59370, 12.97180], [77.59368, 12.97180], [77.59368, 12.97178]]]
+                "coordinates": [[[77.593680, 12.971780], [77.593685, 12.971780], [77.593685, 12.971785], [77.593680, 12.971785], [77.593680, 12.971780]]]
             }
         }]
         issues = self.validator.validate_feature_collection("test_proj", features)
